@@ -14,3 +14,13 @@ Padrões de design são criados para resolverem problemas existentes ouo que pod
 
 ## Factory Method
 É um método que cria instâncias de objetos baseado nas regras de negócio que esses objetos precisam seguir a partir da criação. Ex: uma apllicação de e-commerce onde existem produtos físicos e digitais no catálogo.
+
+
+## Singleton
+Esse padrão faz com que tenhamos apenas uma instância de classe na aplicação, ex: agenda pessoal, tabuleiro de xadrez. Aprendemos 2 formas de fazer um singleton:
+
+- Eager: Quando iniciamos a instância junto com a aplicação
+- Lazy: Quando iniciamos a instância sob demanda, apenas quando a aplicação pede
+
+
+Vale ressaltar que a forma mais segura de fazer um singleton é com um enum, pois isso vai impedir que usuários mal intencionados criem mais de uma instância com métodos de reflection.
