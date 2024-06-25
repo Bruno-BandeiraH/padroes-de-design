@@ -33,3 +33,6 @@ O prototype permite que criemos cópias de um objeto a partir de uma instância 
 
 ## Proxy
 Proxy é um padrão que permite controlar o acesso a algum objeto, executando tarefas antes ou depois desse acesso. Pode ser usado para realizar loggs, caching, etc.
+
+## Adapter
+Usamos o adapter quando precisamos que classes incompatíveis trabalhem juntas. O adapter converte a interface de uma classe em outra interface 
