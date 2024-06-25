@@ -29,3 +29,7 @@ Vale ressaltar que a forma mais segura de fazer um singleton é com um enum, poi
 ## Prototype
 O prototype permite que criemos cópias de um objeto a partir de uma instância existente. Isso é interessante quando queremos copiar um objeto e manter suas características específicas.
  É um design  bastante usando no framework React, para criação de partes reutilizáveis de um site (por exemplo, toda página do site precisa de uma barra de navegador, então criamos um protótipo "navegador" e vamos adicionando a cada página do site). É um padrão fácil de refatorar e fazer manutenção.
+
+
+## Proxy
+Proxy é um padrão que permite controlar o acesso a algum objeto, executando tarefas antes ou depois desse acesso. Pode ser usado para realizar loggs, caching, etc.
