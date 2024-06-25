@@ -24,3 +24,8 @@ Esse padrão faz com que tenhamos apenas uma instância de classe na aplicação
 
 
 Vale ressaltar que a forma mais segura de fazer um singleton é com um enum, pois isso vai impedir que usuários mal intencionados criem mais de uma instância com métodos de reflection.
+
+
+## Prototype
+O prototype permite que criemos cópias de um objeto a partir de uma instância existente. Isso é interessante quando queremos copiar um objeto e manter suas características específicas.
+ É um design  bastante usando no framework React, para criação de partes reutilizáveis de um site (por exemplo, toda página do site precisa de uma barra de navegador, então criamos um protótipo "navegador" e vamos adicionando a cada página do site). É um padrão fácil de refatorar e fazer manutenção.
