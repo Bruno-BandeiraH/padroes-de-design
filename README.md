@@ -40,3 +40,12 @@ Usamos o adapter quando precisamos que classes incompatíveis trabalhem juntas. 
 ## Strategy
 Esse padrão encapsula estratégias diferentes para uma mesma tarefa, permitindo que você possa alternar entre elas de maneira simplificada.
 Ex: Se uma empresa faz o aumento dos salários dos funcionários de forma diferente, baseado no tipo de contrato.
+
+
+## Chain Of Reponsibility
+Chain of Responsibility é um padrão que permite que um pedido seja 
+passado ao longo de uma cadeia de manipuladores, que vão tentar 
+processar o pedido ou passá-lo para o próximo. A vantagem dessa solução é que o pedido 
+não fica acoplado a nenhum objeto, permitindo maior flexibilidade e manutenibilidade. 
+Cuidado para não confundir com recursividade: Aqui, um manipulador pode chamar um manipulador DIFERENTE
+ para tratar o pedido.
